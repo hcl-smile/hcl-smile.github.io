@@ -299,18 +299,6 @@ eval("\n\nvar bind = __webpack_require__(/*! ./helpers/bind */ \"./node_modules/
 
 /***/ }),
 
-/***/ "./node_modules/_css-loader@3.2.0@css-loader/dist/runtime/getUrl.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/_css-loader@3.2.0@css-loader/dist/runtime/getUrl.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nmodule.exports = function (url, needQuotes) {\n  // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n  url = url.__esModule ? url.default : url;\n\n  if (typeof url !== 'string') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n'), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack:///./node_modules/_css-loader@3.2.0@css-loader/dist/runtime/getUrl.js?");
-
-/***/ }),
-
 /***/ "./node_modules/_is-buffer@2.0.3@is-buffer/index.js":
 /*!**********************************************************!*\
   !*** ./node_modules/_is-buffer@2.0.3@is-buffer/index.js ***!
